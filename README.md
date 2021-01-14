@@ -12,6 +12,10 @@ Example:  http://localhost:port/list/:userId returns the list of files and folde
     
 Development:
 
-I used GoLand as IDE and Postman to do the requests. 
+I used GoLand as IDE and Postman to do the requests.
+
 Also, i used a library called Gorilla in order to handle the pathvariable "userId".
-This library, can be cloned from its own repository in the GOROOT path -> git clone git://github.com/gorilla/mux.git
+
+This library, can be cloned from its own repository in the GOROOT path
+      
+    git clone git://github.com/gorilla/mux.git
